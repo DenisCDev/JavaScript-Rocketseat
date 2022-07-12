@@ -1,0 +1,12 @@
+// var é global e, também local
+<script>
+
+console.log('> existe x antes do bloco?', x)
+
+{
+    var x = 0 //Hosting (Joga para cima mesmo depois de ser citado)
+}
+
+console.log('> existe x depois do bloco?', x)
+
+</script>

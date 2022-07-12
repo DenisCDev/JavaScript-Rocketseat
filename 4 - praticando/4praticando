@@ -1,0 +1,28 @@
+// 1 Declare uma variável de nome weight
+    let weight
+
+// 2 Que tipo de dado é a variável acima?
+    console.log(typeof weight)
+
+// 3 Declare uma variável e atribua valores para cada um dos dados:
+    /* let name = "Generico"
+    let age = 39
+    let stars = 4.9
+    let isSubscribed = true */
+
+// 4 Crie um objeto baseado na questão 3
+let pessoaGenerica ={
+    name: "Generico",
+    age: 39,
+    weight: 99.9,
+    isSubscribed: true
+}
+    
+// 4.1 Imprima isso no console
+console.log(`${pessoaGenerica.name} tem ${pessoaGenerica.age} anos, está com a um peso de ${pessoaGenerica.weight} kg`)
+
+// 5 Crie um novo student e coloque na posição 1 do Array students
+students = [
+    student,
+    João
+]

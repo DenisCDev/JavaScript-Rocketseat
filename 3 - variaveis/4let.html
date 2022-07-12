@@ -1,0 +1,12 @@
+// Diferente do var, const e let são locais e só funcionam no escopo onde foram criados
+<script>
+
+    console.log('> existe y antes do bloco?', y)
+    
+    {
+        var y = 0 //Hosting (Joga para cima mesmo depois de ser citado)
+    }
+    
+    console.log('> existe y depois do bloco?', y)
+    
+    </script>
